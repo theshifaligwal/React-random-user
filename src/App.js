@@ -1,5 +1,9 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { Container, Row, Col } from "reactstrap";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "./App.css";
+
+import Axios from "axios";
 
 function App() {
   return (
